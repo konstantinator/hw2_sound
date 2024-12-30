@@ -14,7 +14,7 @@ inferencer:
   device: auto 
   save_path: "example"
   seed: 1
-  from_pretrained: /pretrained_lm/wo_bpe_other/model_best.pth
+  from_pretrained: /pretrained_lm/model_best.pth
 trainer:
   log_step: 100
   n_epochs: 250
