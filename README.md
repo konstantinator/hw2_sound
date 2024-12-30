@@ -42,7 +42,7 @@ curl -L $(yadisk-direct https://disk.yandex.ru/d/UwUd74Qzzl6H-g) -o ./pretrained
 ```
 python inference.py -cn=inference_clean
 ```
-Инференс на шумном тесте
+Инференс на шумном тесте (всё работает из коробки)
 ```
 python inference.py -cn=inference 
 ```
