@@ -12,8 +12,6 @@ train:
       - _target_: src.transforms.wav_augs.AddNoiseAug
         p: 0.52
         sample_rate: 16000
-    #   - _target_: src.transforms.wav_augs.ApplyPitchShift
-    #     sample_rate: 16000
       - _target_: src.transforms.wav_augs.ApplyHighPassFilter
         p: 0.2
         sample_rate: 16000
